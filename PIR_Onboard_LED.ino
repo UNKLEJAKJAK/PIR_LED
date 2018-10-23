@@ -12,7 +12,7 @@ void loop() {
 //  digitalWrite(13,LOW);
 digitalRead(PIR);
 
-if ( digitalRead(PIR) == HIGH)
+if ( digitalRead(PIR) == HIGH) // If motion detected, turn LED on
 {
 digitalWrite(LED, HIGH);   // turn the LED on (HIGH is the voltage level)
 delay(5000);              // wait for a second
